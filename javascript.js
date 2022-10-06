@@ -30,3 +30,10 @@ console.log(double)
 
 console.log(double.lastIndexOf("pop"))
 
+// practice exercise 3.3 page 60
+let newArrayOfNumbers = [1,2,3]
+
+let newNestedArrays = [[1,2,3], [1,2,3], [1,2,3]]
+
+let valueExtraction = newNestedArrays[2][1]
+console.log(valueExtraction)
