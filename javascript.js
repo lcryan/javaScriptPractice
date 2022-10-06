@@ -1,7 +1,32 @@
 // practice exercise 3.1
-let arrayFood = ["milk", "bread", "apples"]
-console.log(arrayFood.length)
+// let arrayFood = ["milk", "bread", "apples"]
+// console.log(arrayFood.length)
+//
+// arrayFood[1] = "bananas"
+//
+// console.log(arrayFood)
+// practice exercise 3.2 page 59
 
-arrayFood[1] = "bananas"
+let shoppingList = ["milk", "bread", "apples"]
+shoppingList.splice(1, 1 ,"bananas", "eggs")
+console.log(shoppingList)
 
-console.log(arrayFood)
+console.log(shoppingList.pop())
+console.log(shoppingList)
+
+console.log(shoppingList.sort())
+
+console.log(shoppingList.indexOf("milk"))
+
+shoppingList.splice(1,0, "carrots", "lettuce")
+console.log(shoppingList)
+
+let newShoppingList = ["juice", "pop"]
+let combinedShoppingLists = shoppingList.concat(newShoppingList)
+console.log(combinedShoppingLists)
+
+let double = combinedShoppingLists.concat(newShoppingList)
+console.log(double)
+
+console.log(double.lastIndexOf("pop"))
+
