@@ -37,3 +37,4 @@ let newNestedArrays = [[1,2,3], [1,2,3], [1,2,3]]
 
 let valueExtraction = newNestedArrays[2][1]
 console.log(valueExtraction)
+
